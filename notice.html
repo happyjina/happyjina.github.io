@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>작은꽃집 :: 공지사항</title>
+    <link href="./css/basic.css" rel="stylesheet">
+    <style>
+          .header{
+            position: relative;
+            width: 960px;
+            height: 100px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+        }
+        .header_login{
+            width: 960px;
+            height: 25px;
+            display: inline-block;
+            text-align: right;
+            background-color: green;
+            }
+        .header_login>a{
+            margin-right: 10px;
+            color: white;
+            font-weight: 700;
+
+        }
+        .header_login>a:hover{
+            color:yellow;
+        }
+
+        .header_logo{
+            width: 960px;
+            height: 60px;
+            line-height: 60px;
+            border-bottom: 2px solid rgb(72, 170, 72);
+            font-weight: 700px;
+            
+        }
+        .header_logo h1{
+            display: inline-block;
+            margin-left: 30px;
+            color: green;
+        }
+        .header_nav{
+            width: 960px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: green;
+            border-bottom: 2px solid rgb(72, 170, 72);
+        }
+        .header_nav>li{
+            display: inline-block ;
+        }
+        .header_nav a{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        /*section*/
+    
+        .section{
+            margin-top: 40px;
+            position: relative;
+            width: 960px;
+            height: 650px;
+       
+      
+        }
+        .aside1{
+            float: left;
+            width: 180px;
+            height: 80px;
+            color: white;
+            
+            margin-top: 60px;
+            margin-left: 15px;
+        }
+        .aside1 li{
+            width: 180px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid gray;
+            background-color: darkseagreen;
+            font-weight: 900;
+        }
+        .asied1 li>a{
+            color: white; /*글자색 변경하기*/
+           
+        }
+        .aside1 li>a:hover{
+            color: yellow;
+        }
+
+        .main{
+        float: right;
+        width: 740px;
+        height: 630px;  /*640이면 밑에 글씨 밀림 와이??*/
+        
+        margin: 10px;
+        
+        }
+        .main_tag{
+            color: green;
+            border-bottom: 2px solid green;
+            padding: 5px;
+
+        }
+
+        .noticet{
+            margin-top: 90px;
+         margin-left: 20px;
+        }
+
+        .noticetable{
+            margin-top: 30px;
+            width: 700px;
+            margin-left: 9px;
+            border-top: 2px solid gray;
+            border-bottom: 2px solid gray;
+        }
+        .noticetable th,td{
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .noticetable td:nth-child(2){
+            text-align: left;
+            padding-left: 10px;
+        }
+        .noticetable tr:nth-last-child(){
+            border-top: 2px solid gray;
+
+        }
+        .noticetable th{
+            color: green;
+            font-weight: 900;
+            border-bottom: 1px solid gray;
+        }
+
+
+
+.footer{
+    position: relative;
+    width: 960px;
+    height: 100px;
+
+}
+.footer_nav{
+    position: fixed;
+    width: 960px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+.footer_nav>a{
+   
+    display: inline-block;
+    height: 40px;
+   padding-left: 20px;
+   padding-right: 20px;
+
+}
+.footer_addr{
+display: inline-block;
+    color: gray;
+    padding-top: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.footer_time{
+    padding-top: 50px;
+    display: block;
+    float: right;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+    </style>
+</head>
+
+<body>
+    <!--header-->
+    <body>
+        <div class="header">
+            <div class="header_login">
+                <a href="login.html" >로그인</a>
+                <a href="membership.html">회원가입</a>
+                <a href="shopping_list.html" >장바구니</a>
+                <a href="shipping.html">배송조회</a>
+    
+            </div>
+            <div class="header_logo">
+                <a href="index.html" >
+                    
+                    <h1>작은꽃집</h1></a>
+            </div>
+            <div class="header_nav">
+              
+                    <li><a href="use_info.html" >이용안내</a></li>
+                    <li><a href="best.html" >인기상품</a></li>
+                    <li><a href="sales.html" >판매상품</a></li>
+                    <li><a href="map.html" >오시는길</a></li>
+                    <li><a href="qna.html" >문의하기</a></li>
+            </div>
+    
+        </div>
+        
+
+
+
+   
+
+  <div class="section">
+                <!--aside1-->
+    
+    <div class="aside1">
+        
+        <ul>
+            <li><a href="qna.html">자주묻는 질문</a></li>
+            <li><a href="ask.html" >문의하기</a></li>
+     
+        </ul>
+            </div>
+
+              <!--section-->
+        <div class="main">
+            <div class="main_tag">
+                <h2>공지사항</h2>
+                </div>
+           
+              
+      
+            <div class="noticet">
+                <table class="noticetable">
+                <tr>
+                    <th>no</th>
+                    <th>제목</th>
+                    
+                    <th>작성일자</th>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>연말 배송 지연 안내 </td>
+                    <td>2022-11-02</td>
+                   
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>추석연휴 제품 출하 안내</td>
+                  
+                    <td>2020-09-04</td>
+                </tr>
+               
+            </table>
+
+            
+                
+            
+    </div>
+</div>
+
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="footer_nav">
+            <a href="person_law.html" >개인정보처리방침</a>
+            <a href="email_law.html" >이메일무단수집거부</a>
+            <a href="servicelaw.html" >이용서비스현황</a>
+            <a href="use.html" >이용규정</a>
+            <a href="map.html" >오시는길</a>
+            
+        </div>
+
+        <div class="footer_addr">
+            <p>(우)12345 서울특별시 송파구 올림픽로 424 </p>
+            <p> 전화번호 : 02-123-4567</p>
+            <p>Copyright &copy; 2022 작은꽃집 All Right Reserved</p>
+            
+        </div>
+
+        <div class="footer_time">
+            <h4>운영시간</h4>
+            <p>화요일~금요일 : 9시~18시</p>
+            <p>토요일~일요일 : 9시~14시</p>
+        </div>
+
+    </div>
+</body>
+</html>

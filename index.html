@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>작은꽃집</title>
+    <link href="./css/basic.css" rel="stylesheet">
+    <style>
+          .header{
+            position: relative;
+            width: 960px;
+            height: 100px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+        }
+        .header_login{
+            width: 960px;
+            height: 25px;
+            display: inline-block;
+            text-align: right;
+            background-color: green;
+            }
+        .header_login>a{
+            margin-right: 10px;
+            color: white;
+            font-weight: 700;
+
+        }
+        .header_login>a:hover{
+            color:yellow;
+        }
+
+        .header_logo{
+            width: 960px;
+            height: 60px;
+            line-height: 60px;
+            border-bottom: 2px solid rgb(72, 170, 72);
+            font-weight: 700px;
+            
+        }
+        .header_logo h1{
+            display: inline-block;
+            margin-left: 30px;
+            color: green;
+        }
+        .header_nav{
+            width: 960px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: green;
+            border-bottom: 2px solid rgb(72, 170, 72);
+        }
+        .header_nav>li{
+            display: inline-block ;
+        }
+        .header_nav a{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        /*section*/
+        .section{
+            position: relative;
+            width: 800px;
+            height: 400px;
+            margin: 30px 80px;
+            border: 2px solid gray;
+        }
+        .section_best{
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 2px solid gray;
+        }
+        .section_best h2{
+            display: inline-block;
+            margin-left: 20px;
+            color: green;
+        }
+        
+        .bestitem a{
+            display: inline-block;
+        }
+        .bestitem img{
+           
+            width: 250px;
+            height: 300px;
+            margin-top: 15px;
+            margin-left: 8px;
+            border: 1px solid gray;
+            background-color: aqua;
+        
+        }
+        .bestitem h4{
+            color: gray;
+            text-align: center;
+        }
+        .bestitem p{
+            display: inline-block;
+            color: red;
+            margin-right: 5px;
+            
+        }
+
+        .banner1{
+            position: relative;
+            width: 960px;
+            height: 220px;
+            margin-bottom: 10px;
+
+        }
+        .section_use_info{
+            float: left;
+           
+           
+            width: 380px;
+            height: 220px;
+            border: 2px solid gray;
+            margin-left: 80px;
+            margin-right: 20px;
+           
+        }
+        .section_use_info h2{
+            display: inline-block;
+            margin-left: 20px;
+            color: green;
+            height: 40px;
+            line-height: 40px;
+            
+
+        }
+        .section_use_info1{
+            border-top: 2px solid gray;
+          font-size: 20px;
+        }
+        .section_use_info1 li{
+            height: 50px;
+            line-height: 50px;
+           margin-left: 30px;
+           margin-top: 10px;
+        }
+
+        .section_notice{
+            float: right;
+            
+            width: 380px;
+            height: 220px;
+            border: 2px solid gray;
+            margin-left: 10px;
+            margin-right: 80px;
+          
+        }
+        .section_notice h2{
+            display: inline-block;
+            margin-left: 20px;
+            color: green;
+            height: 40px;
+            line-height: 40px;
+            
+
+        }
+        .section_notice1{
+            border-top: 2px solid gray;
+          font-size: 20px;
+        }
+        .section_notice li{
+            height: 50px;
+            line-height: 50px;
+           margin-left: 30px;
+           margin-top: 10px;
+        }
+            
+.footer{
+    position: relative;
+    width: 960px;
+    height: 100px;
+
+}
+.footer_nav{
+    
+    width: 960px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+.footer_nav>a{
+    display: inline-block;
+    height: 40px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.footer_addr{
+    display: inline-block;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.footer_time{
+    display: block;
+    float: right;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+    </style>
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="header_login">
+            <a href="login.html">로그인</a>
+            <a href="membership.html"회원가입</a>
+            <a href="shopping_list.html" >장바구니</a>
+            <a href="shipping.html" >배송조회</a>
+
+        </div>
+        <div class="header_logo">
+            <a href="index.html" >
+              <h1>작은꽃집</h1></a>
+        </div>
+        <div class="header_nav">
+          
+                <li><a href="use_info.html" >이용안내</a></li>
+                <li><a href="best.html" >인기상품</a></li>
+                <li><a href="sales.html" >판매상품</a></li>
+                <li><a href="map.html" >오시는길</a></li>
+                <li><a href="qna.html">문의하기</a></li>
+        </div>
+
+    </div>
+
+
+    <!--section-->
+        <div class="section">
+            <div class="section_banner">
+
+            <div class="section_best">
+            <a href="best.html" ><h2>인기상품</h2></a>
+             </div>
+             
+            <div class="bestitem">
+              <a href="#" >
+                <img src="./images/flower_best1.jpg">
+                <h4><p>best</p>제라늄 대품 20000원</h4>
+                
+              </a>
+              <a href="#" >
+                <img src="./images/flower_best2.jpg">
+                <h4><p>best</p>프리지아 중품 15000원</h4>
+                
+              </a>
+              <a href="#">
+                <img src="./images/flower_best3.jpg">
+                <h4><p>best</p>분홍장미 중품 18000원</h4>
+               
+              </a>
+             </div>
+            </div>
+        </div>
+
+            <div class="banner1">
+            <div class="section_use_info">
+                <a href="use_info.html" ><h2>이용안내</h2></a>
+                <div class="section_use_info1">
+                    <ul>
+                        <li>화요일~금요일 : 9시~18시</li>
+                        <li>토요일~일요일 : 9시~14시</li>
+                       
+                        <li>전화번호 : 02-123-4567</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section_notice">
+                <a href="notice.html" ><h2>공지사항</h2></a>
+                <div class="section_notice1">
+                    <ul>
+                        <li><a href="#" >연말 배송 지연 안내</a></li>
+                        <li><a href="#" >추석 연휴 제품 출하 안내</a></li>
+                       
+                    </ul>
+
+            </div>
+
+
+        </div>
+    </div>
+    
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="footer_nav">
+            <a href="person_law.html" >개인정보처리방침</a>
+            <a href="email_law.html" >이메일무단수집거부</a>
+            <a href="servicelaw.html/" >이용서비스현황</a>
+            <a href="use.html" >이용규정</a>
+            <a href="map.html" >오시는길</a>
+            
+        </div>
+
+        <div class="footer_addr">
+            <p>(우)12345 서울특별시 송파구 올림픽로 424 </p>
+            <p> 전화번호 : 02-123-4567</p>
+            <p>Copyright &copy; 2022 작은꽃집 All Right Reserved</p>
+            
+        </div>
+
+        <div class="footer_time">
+            <h4>운영시간</h4>
+            <p>화요일~금요일 : 9시~18시</p>
+            <p>토요일~일요일 : 9시~14시</p>
+        </div>
+
+    </div>
+</body>
+</html>

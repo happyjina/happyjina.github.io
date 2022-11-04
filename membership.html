@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>작은꽃집 :: 회원가입</title>
+    <link href="./css/basic.css" rel="stylesheet">
+    <style>
+          .header{
+            position: relative;
+            width: 960px;
+            height: 100px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+        }
+        .header_login{
+            width: 960px;
+            height: 25px;
+            display: inline-block;
+            text-align: right;
+            background-color: green;
+            }
+        .header_login>a{
+            margin-right: 10px;
+            color: white;
+            font-weight: 700;
+
+        }
+        .header_login>a:hover{
+            color:yellow;
+        }
+
+        .header_logo{
+            width: 960px;
+            height: 60px;
+            line-height: 60px;
+            border-bottom: 2px solid rgb(72, 170, 72);
+            font-weight: 700px;
+            
+        }
+        .header_logo h1{
+            display: inline-block;
+            margin-left: 30px;
+            color: green;
+        }
+        .header_nav{
+            width: 960px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: green;
+            border-bottom: 2px solid rgb(72, 170, 72);
+        }
+        .header_nav>li{
+            display: inline-block ;
+        }
+        .header_nav a{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        /*section*/
+        .membership{
+            position: relative;
+            width: 800px ;
+            height: 630px;
+        }
+        .tagname{
+            margin-left: 40%;
+            margin-top: 60px;
+            color: green;
+            border-bottom: 2px solid green;
+        }
+        .membert{
+            margin-left: 40%;
+            margin-top: 10px;
+            width: 480px;
+        }
+        .membert td{
+            height: 40px;
+            
+           
+        }
+        .mem1{
+            width: 180px;
+            font-weight: 500;
+            background-color: darkseagreen;
+            color: white;
+            text-align: center;
+        }
+        .mem2{
+            width: 300px;
+        }
+        .input{
+            margin-left: 10px;
+            width: 150px;
+        }
+        .btid{
+            margin-left: 10px;
+            width: 70px;
+            height: 30px;
+        }
+        .post{
+            margin-left: 10px;
+            width: 70px;
+            height: 30px;
+
+        }
+        .postn{
+            margin-left: 5px;
+            width: 100px;
+        }
+        .addr{
+            margin-left: 10px;
+            width: 280px;
+        }
+            
+.footer{
+    position: relative;
+    width: 960px;
+    height: 100px;
+
+}
+.footer_nav{
+    
+    width: 960px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+.footer_nav>a{
+    display: inline-block;
+    height: 40px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.footer_addr{
+    display: inline-block;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.footer_time{
+    display: block;
+    float: right;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+    </style>
+</head>
+<body>
+    <!--header-->
+    <body>
+        <div class="header">
+            <div class="header_login">
+                <a href="login.html" >로그인</a>
+                <a href="membership.html">회원가입</a>
+                <a href="shopping_list.html" >장바구니</a>
+                <a href="shipping.html">배송조회</a>
+    
+            </div>
+            <div class="header_logo">
+                <a href="index.html" >
+                    
+                    <h1>작은꽃집</h1></a>
+            </div>
+            <div class="header_nav">
+              
+                    <li><a href="use_info.html" >이용안내</a></li>
+                    <li><a href="best.html" >인기상품</a></li>
+                    <li><a href="sales.html" >판매상품</a></li>
+                    <li><a href="map.html" >오시는길</a></li>
+                    <li><a href="qna.html" >문의하기</a></li>
+            </div>
+    
+        </div>
+        
+
+
+    <!--section-->
+        <div class="membership">
+            <div class="tagname"><h2>회원가입</h2></div>
+            <table class="membert" border="1">
+
+            <tr>
+                <td class="mem1"><label for="id" >아이디</label></td>
+                    <td class="mem2" ><input type="text" name="id" id="id" required class="input">
+                        <input type="button" name="btid" value="중복확인" class="btid">
+            </tr>
+            <tr>
+                <td class="mem1"><label for="pwd" >비밀번호</label></td>
+                    <td class="mem2" ><input type="password" name="pwd" id="pwd" required class="input" >
+                  </td>
+            </tr>
+            <tr>
+                <td class="mem1"><label for="pwd1" >비밀번호확인</label></td>
+                    <td class="mem2" ><input type="password" name="pwd1" id="pwd1" required class="input"></td>
+            </tr>
+            <tr>
+                <td class="mem1"><label for="email" >이메일</label></td>
+                    <td class="mem2"  ><input type="email" name="email" id="email" required class="input"></td>
+            </tr>
+            <tr>
+                <td class="mem1"><label for="name" >이름</label></td>
+                    <td class="mem2" ><input type="text" name="name" id="name" required class="input"></td>
+            </tr>
+            <tr>
+                <td class="mem1"><label for="phone" >전화번호</label></td>
+                    <td class="mem2" ><input type="text" name="phone" id="phone" required class="input" placeholder="번호만 입력하세요"></td>
+            </tr>
+            <tr>
+                <td class="mem1"><label for="post" >우편번호</label></td>
+                <td class="mem2"  ><input type="button" name="bt" value="우편번호" class="post">
+                    <input type="post" name="post" id="post"  class="postn"></td>
+            </tr>
+            <tr>
+                <td class="mem1"><label for="addr" >주소</label></td>
+                <td class="mem2"  ><input type="addr" name="addr" id="addr"  class="addr"></td>
+            </tr>
+            <tr>
+                <td class="mem1"><label for="addr1" >상세주소</label></td>
+                <td class="mem2"  ><input type="addr1" name="addr1" id="addr1" class="addr"></td>
+            </tr>
+        </table> 
+           
+        
+            
+    </div>
+    
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="footer_nav">
+            <a href="person_law.html" >개인정보처리방침</a>
+            <a href="email_law.html" >이메일무단수집거부</a>
+            <a href="servicelaw.html/" >이용서비스현황</a>
+            <a href="use.html" >이용규정</a>
+            <a href="map.html" >오시는길</a>
+            
+        </div>
+
+        <div class="footer_addr">
+            <p>(우)12345 서울특별시 송파구 올림픽로 424 </p>
+            <p> 전화번호 : 02-123-4567</p>
+            <p>Copyright &copy; 2022 작은꽃집 All Right Reserved</p>
+            
+        </div>
+
+        <div class="footer_time">
+            <h4>운영시간</h4>
+            <p>화요일~금요일 : 9시~18시</p>
+            <p>토요일~일요일 : 9시~14시</p>
+        </div>
+
+    </div>
+</body>
+</html>
